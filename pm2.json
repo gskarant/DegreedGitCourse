@@ -1,0 +1,17 @@
+{
+    "apps":[
+        {
+            "name":"simpleNode",
+            "script":"./index.js",
+            "watch":true,
+            "ignore_watch":["node_modules","public"],
+            "instance":1,
+            "exce_mode":"cluster",
+            "env":{
+                "DB_NAME":"hello",
+                "PORT":"8000"
+            }
+
+        }
+    ]
+}
